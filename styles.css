@@ -69,8 +69,26 @@ h2 {
     cursor: pointer;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     transition: background-color 0.4s;
+    
 }
 
 .youtube-button:hover {
-    background-color: #04d4bf;
+    background-color: #03bda4;
 }
+footer {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.completed-text {
+    color: #00cc66;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
