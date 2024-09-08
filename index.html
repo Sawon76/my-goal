@@ -4,35 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Courses</title>
+    <title>My Courses</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
+    <div class="container">
         <h1>My Goal</h1>
-    </header>
-
-    <main>
-        <h2>COURSES</h2>
-        <div class="courses-container">
+        
+        <div class="courses">
             <div class="course-card">
                 <img src="mechanics.jpg" alt="Mechanics of Solid">
                 <h3>Mechanics of Solid</h3>
-                <button class="youtube-button"
-                    onclick="redirectToYoutube('https://www.youtube.com/playlist?list=PLiSPNzs4fD9tiqHO5zEn4PqHmsrWsh6UI&si=hyz6pPyrBohRMs7h')">Youtube
-                    Playlist</button>
+                <a href="https://www.youtube.com/playlist?list=PLiSPNzs4fD9tiqHO5zEn4PqHmsrWsh6UI&si=hyz6pPyrBohRMs7h" class="btn">YouTube Playlist</a>
             </div>
             <div class="course-card">
-                <img src="probability.jpg" alt="Probability and Statistical">
+                <img src="probability.jpg" alt="Probability and Statistics">
                 <h3>Probability and Statistical</h3>
-                <button class="youtube-button"
-                    onclick="redirectToYoutube('https://www.youtube.com/playlist?list=PLU6SqdYcYsfJPF-4HphQQ8OceDtqhlSW8&si=Koo67Tvyb9BGDvFS')">Youtube
-                    Playlist</button>
-            </div>
+                <a href="https://www.youtube.com/playlist?list=PLU6SqdYcYsfJPF-4HphQQ8OceDtqhlSW8&si=Koo67Tvyb9BGDvFS" class="btn">YouTube Playlist</a>
             </div>
         </div>
-    </main>
+        
+    </div>
 
     <script src="script.js"></script>
 </body>
