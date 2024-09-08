@@ -19,23 +19,33 @@
             <div class="course-card">
                 <img src="mechanics.jpg" alt="Mechanics of Solid">
                 <h3>Mechanics of Solid</h3>
-                <button class="youtube-button"
-                    onclick="redirectToYoutube('https://www.youtube.com/playlist?list=PLiSPNzs4fD9tiqHO5zEn4PqHmsrWsh6UI&si=hyz6pPyrBohRMs7h')">Playlist</button>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="mechanical-check" onchange="toggleCompletion('mechanical')">
+                    <label for="mechanical-check"></label>
+                </div>
+                <button id="mechanical-btn" class="youtube-button" onclick="openPlaylist('mechanical')">Youtube Playlist</button>
+                
             </div>
             <div class="course-card">
                 <img src="probability.jpg" alt="Probability and Statistical">
                 <h3>Probability and Statistical</h3>
-                <button class="youtube-button"
-                    onclick="redirectToYoutube('https://www.youtube.com/playlist?list=PLU6SqdYcYsfJPF-4HphQQ8OceDtqhlSW8&si=Koo67Tvyb9BGDvFS')">Playlist</button>
+                
+            <button id="data-analysis-btn" class="youtube-button" onclick="openPlaylist('data-analysis')">Youtube Playlist</button>
             </div>
             <div class="course-card">
                 <img src="autocad.png" alt="Autocad">
-                <h3>Autocad</h3>
-                <button class="youtube-button"
-                    onclick="redirectToYoutube('https://www.youtube.com/playlist?list=PLv2ZxY8SkeQWF3YdaR0b7EDH8TIUpWw7_&si=dBCLnj_YPAL3VPP7')">Playlist</button>
+                <h3>Probability and Statistical</h3>
+                
+                <button id="cad-btn" class="youtube-button" onclick="openPlaylist('cad')">Youtube Playlist</button>
             </div>
-            
         </div>
+        <footer>
+            <p>Made By SAWON MUKHERJEE</p>
+            <div class="social-links">
+                <a href="https://facebook.com/sawon.mukherjee.2020" target="_blank">Facebook</a>
+                <a href="https://instagram.com/sawon.mukherjee.76" target="_blank">Instagram</a>
+            </div>
+        </footer>
     </main>
 
     <script src="script.js"></script>
