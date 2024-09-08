@@ -81,8 +81,8 @@ h2 {
 }
 footer {
     text-align: center;
-    margin-bottom: 50px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .social-links a {
@@ -92,7 +92,7 @@ footer {
     text-decoration: none;
     margin: 0 20px;
 }
-img {
+.myrout {
     margin-top: 50px;
     max-width: 100%;
     height: auto;
