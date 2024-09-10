@@ -1,25 +1,28 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(45deg, #0a0a0a, #575656);
+    background-image: url('bg.jpg');
     background-attachment: fixed;
-    color: #fff;
+    color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
+    background-size: cover;
+    background-position: center;
+    
 }
 
 
 
 main {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 h2 {
     font-family: 'Georgia', serif;
-    color: #ffffff;
+    color: #343434;
     font-size: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-weight: bold;
 }
 
@@ -31,15 +34,18 @@ h2 {
 }
 
 .course-card {
-    background-color: #2b2b2b;
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 20px;
     padding: 10px;
     width: 300px;
     text-align: center;
     position: relative;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
     transition: transform 0.4s;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
 
 }
 
@@ -51,6 +57,7 @@ h2 {
     width: 100%;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
 }
 
 .course-card h3 {
@@ -66,12 +73,14 @@ h2 {
     padding: 10px 20px;
     font-size: 18px;
     color: #ffffff;
-    background-color: #707070;
+    background: rgba(255, 255, 255, 0.2);
     font-weight: bold;
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(5px);
     transition: background-color 0.2s;
 
 }
@@ -85,7 +94,7 @@ h2 {
 footer {
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .social-links a {
