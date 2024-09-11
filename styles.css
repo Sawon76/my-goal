@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('bg.jpg');
+    background: linear-gradient(to right, #074f86, #47da9d);
     background-attachment: fixed;
     color: #ffffff;
     font-family: Arial, sans-serif;
